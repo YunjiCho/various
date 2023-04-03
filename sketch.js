@@ -1,11 +1,11 @@
 let colors = ["#F29307", "#0F8C9C", "#F7EB7C", "tomato"];
 let c1 = 120;
-let s1 = 50;
+let s1 = 40;
 let e1 = 0.7;
 let e1n = 8;
 function setup() {
-  createCanvas(800, 800);
-  background(0);
+  createCanvas(windowWidth, windowHeight);
+  background(random(colors));
 
   let x = random(30, 70);
   let y = random(30, 70);
